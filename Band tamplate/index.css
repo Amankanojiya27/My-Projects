@@ -1,0 +1,377 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  /* box-sizing: border-box; */
+}
+body {
+  padding-top: 48px;
+}
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.navbar ul {
+  list-style-type: none;
+  background-color: #000000;
+  overflow: hidden;
+}
+.navbar li {
+  float: left;
+  font-family: "Lato", sans-serif;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 16px 24px;
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  border: none;
+}
+.navbar a:hover {
+  background-color: #cccccc;
+  color: #000000;
+  border: none;
+}
+svg {
+  float: right;
+  display: block;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+svg:hover {
+  background-color: #f44336;
+}
+
+/* ----------> section ------------>*/
+.sec-2,
+.sec-3,
+.sec-4 {
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ---------- section-1 -----------------*/
+/* ---------- section-1 -----------------*/
+.container-1 {
+  height: 93vh;
+  width: 100vd;
+  background-image: url(./band.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.band-text {
+  width: 325px;
+  height: 150px;
+  align-self: flex-end;
+  text-align: center;
+  color: white;
+}
+.band-text-tittle {
+  text-align: center;
+  padding: 10px;
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 25px;
+}
+
+/* ---------- section-2 -----------------*/
+/* ---------- section-2 -----------------*/
+.sec-2 {
+  height: 550px;
+  width: auto;
+  padding-top: 64px !important;
+  padding-bottom: 64px !important;
+}
+.container-2 {
+  width: 60%;
+  height: 100%;
+}
+h2 {
+  font-size: 30px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 4px;
+  text-align: center;
+  padding: 10px;
+}
+
+.ctr2-i {
+  text-align: center;
+  margin: 10px 0;
+  color: gray;
+  font-size: 15px;
+  font-family: Verdana, sans-serif;
+}
+.ctr2-p {
+  font-size: 17px;
+  padding-bottom: 50px;
+  padding-top: 15px;
+}
+.ctr2-boxs {
+  height: 320px;
+  width: auto;
+  display: flex;
+}
+.small-box {
+  width: 33%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+.small-box-h5 {
+  font-size: 13px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 450;
+  margin: 10px 0;
+  letter-spacing: 4px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.small-box-img {
+  overflow: hidden;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  margin-left: 45px;
+}
+
+/* ---------- section-3 -----------------*/
+/* ---------- section-3 -----------------*/
+.sec-3 {
+  background-color: black;
+  border: 10px solid black;
+}
+.container-3 {
+  width: 60%;
+  height: 100%;
+}
+.ctr3-h2 {
+  margin-top: 60px;
+  font-weight: 400;
+  color: white;
+  margin: 20px;
+}
+.ctr3-i {
+  text-align: center;
+  margin: 10px 0;
+  color: gray;
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  margin: 20px;
+  margin-bottom: 30px;
+}
+
+.months-con-ul {
+  text-decoration: none;
+  list-style-type: none;
+  background-color: white;
+}
+.months-con-ul-li {
+  color: grey;
+  padding: 10px;
+  font-size: 18px;
+  border-bottom: 2px solid gray;
+}
+.months-con-ul-li-span {
+  background-color: #f44336;
+  color: white;
+  padding: 3px;
+  margin-left: 10px;
+}
+.months-con-ul-li-span2 {
+  color: white;
+  background-color: #000000;
+  padding: 2px 8px;
+  border-radius: 50%;
+  float: right;
+  margin-right: 15px;
+}
+.card-container {
+  height: 450px;
+  width: 100%;
+  padding-top: 20px;
+}
+.card-boxs {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+}
+.card-img img {
+  height: 100%;
+  width: 100%;
+}
+.card-text {
+  width: 100%;
+  background-color: white;
+}
+.city-name {
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+.card-date {
+  font-size: 18px;
+  color: grey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+.card-p {
+  font-size: 18px;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.card-btn {
+  color: white;
+  background-color: #000000;
+  padding: 10px 15px;
+  font-size: 15px;
+  margin: 15px;
+  border: none;
+}
+.card-btn:hover {
+  background-color: grey;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+}
+
+/* ---------- section-4 -----------------*/
+/* ---------- section-4 -----------------*/
+.container-4 {
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-bottom: 60px;
+}
+.ctr4-h2 {
+  height: 30px;
+  margin-top: 70px;
+  font-size: 25px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.ctr4-i {
+  margin-top: 13px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  text-align: center;
+  color: gray;
+  font-family: Verdana, sans-serif;
+}
+
+.contact-info-box {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: row;
+}
+.info-num {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.info {
+  display: flex;
+  font-size: 18px;
+}
+input {
+  width: 220px;
+  margin-left: 20px;
+  height: 35px;
+  border: 1px solid rgb(191, 191, 191);
+}
+.msg-box {
+  width: 92%;
+  margin-top: 20px;
+}
+.sand-btn {
+  background-color: black;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  margin-left: 82%;
+  margin-top: 12px;
+  font-size: 16px;
+}
+
+.sand-btn:hover {
+  background-color: grey;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+}
+
+/* ---------- section-5 -----------------*/
+/* ---------- section-5 -----------------*/
+.sec-5 {
+  height: auto;
+  width: 100%;
+}
+.sec5-img img {
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.link-icon {
+  height: 25;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.link-png {
+  width: 30px;
+  height: 30px;
+}
+.link-png:hover {
+  background-color: rgb(203, 198, 198);
+}
+.fa-text {
+  height: 20px;
+  width: 80%;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  color: gray;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+.fa-text span {
+  padding-right: 5px;
+}
+.as {
+  color: gray;
+  padding-bottom: 60px;
+}
