@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar CSS------------------->>>>>>>>>>> */
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 25%;
+  right: 20px;
+  gap: 10px;
+  z-index: 100000;
+  position: fixed;
+}
+.icon {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #f5cc4c;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon:hover {
+  background-color: #f5cc4c;
+  color: white;
+}
